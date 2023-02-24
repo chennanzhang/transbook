@@ -82,7 +82,7 @@
 \ProcessKeysOptions { trbk / option }
 \PassOptionsToClass { 
     zihao = 5,
-    sub3section,
+    sub4section,
     \g__trbk_to_ctexbook_clist 
     } { ctexbook }
 \LoadClass { ctexbook }
