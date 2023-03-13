@@ -101,5 +101,9 @@ sympy-plots-for-*.tex/
 # xindy
 *.xdy
 
+# bash or batch
+*.sh
+*.bat
+
 ## VScode workspace
 *.code-workspace
