@@ -528,7 +528,7 @@
     beforeskip  = 2pt,
   },
   subparagraph ={
-    format      = \zihao{5}\flushleft,
+    format      = \zihao{5}\sffamily\flushleft,
     afterskip   = 2pt,
     beforeskip  = 2pt,
   },
@@ -705,10 +705,14 @@
 \crefname{section}{}{}
 \crefname{subsection}{}{}
 \crefname{subsubsection}{}{}
+\crefname{paragraph}{}{}
+\crefname{subparagraph}{}{}
 \creflabelformat{chapter}{#2第\nobreakspace #1\nobreakspace 章#3}
 \creflabelformat{section}{#2第\nobreakspace #1\nobreakspace 节#3}
 \creflabelformat{subsection}{#2第\nobreakspace #1\nobreakspace 节#3}
 \creflabelformat{subsubsection}{#2第\nobreakspace #1\nobreakspace 节#3}
+\creflabelformat{paragraph}{#2第\nobreakspace #1\nobreakspace 节#3}
+\creflabelformat{subparagraph}{#2第\nobreakspace #1\nobreakspace 节#3}
 \newcommand{\crefpairconjunction}{~和~}
 \newcommand{\crefmiddleconjunction}{、}
 \newcommand{\creflastconjunction}{~和~}
