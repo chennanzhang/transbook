@@ -469,9 +469,9 @@
     \draw [line~width=0.5pt,genfg] 
       ([xshift=3.8cm,yshift=-3.0cm]current~page.north~west) --++(0,3.0cm);
     \node at ([xshift=3.6cm,yshift=-3.0cm]current~page.north~west) 
-      [above~left]{\thepage};
+      [above~left]{\small\thepage};
     \node at ([xshift=4cm,yshift=-3.0cm]current~page.north~west) 
-      [above~right]{\slshape\leftmark};
+      [above~right]{\small\slshape\leftmark};
   \end{tikzpicture}
 }
 \fancyhead[RO]{
@@ -479,9 +479,9 @@
     \draw[line~width=0.5pt,genfg]
       ([xshift=-3.8cm,yshift=-3.0cm]current~page.north~east)--++(0,3.0cm);
     \node at ([xshift=-3.6cm,yshift=-3.0cm]current~page.north~east)
-      [above~right]{\thepage};
+      [above~right]{\small\thepage};
     \node at ([xshift=-4cm,yshift=-3.0cm]current~page.north~east) 
-      [above~left]{\slshape\rightmark};
+      [above~left]{\small\slshape\rightmark};
   \end{tikzpicture}
 }
 \fancypagestyle{plain}{\fancyhf{}}
